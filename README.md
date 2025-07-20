@@ -1,12 +1,20 @@
-# React + Vite
+# Student Registration Form (React + Formik + Yup)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application provides a simple and user-friendly student registration form. The form is built using **Formik** for form state management and **Yup** for validation.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Collects:
+  - Full Name (Text)
+  - Email (Email Input)
+  - Password (Password Input)
+  - Grade (Select Dropdown)
+  - Gender (Radio Buttons)
+- Uses a **single `useFormik` hook** to manage form state and validation
+- Logs submitted form data to the console as an object
 
-## Expanding the ESLint configuration
+---
+<video src="https://github.com/user-attachments/assets/de2cf8ef-6fc8-40f2-bb4a-fbde01cd3236"></video>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
